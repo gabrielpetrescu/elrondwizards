@@ -27,6 +27,7 @@
     "follow-redirects": "^1.14.7",
     "font-awesome": "^4.7.0",
     "immer": "^9.0.12",
+    "jquery": "^3.6.0",
     "json-schema": "^0.4.0",
     "moment": "2.29.1",
     "node-forge": "^1.2.1",
@@ -40,7 +41,9 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
+    "react-tabs": "^3.2.3",
     "shelljs": "^0.8.5",
+    "swiper": "^6.8.4",
     "tar": "^6.1.11",
     "tmpl": "^1.0.5",
     "trim-newlines": "^4.0.2",
@@ -73,6 +76,8 @@
     ]
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.13",
+    "@types/react-tabs": "^2.3.4",
     "@typescript-eslint/eslint-plugin": "4.22.1",
     "@typescript-eslint/parser": "4.22.1",
     "eslint-config-prettier": "8.3.0",

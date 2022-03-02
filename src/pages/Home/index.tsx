@@ -8,16 +8,20 @@ import About from "components/About";
 import RoadMap from "components/RoadMap";
 import UseOfFounds from "components/UseOfFounds";
 import Footer from "components/Footer";
-
+// prettier-ignore
 const Home = () => {
   return (
     <div className="home-page">
-      <Video />
-      <Banner />
-      <About />
-      <RoadMap />
-      <UseOfFounds />
-      <Footer />
+        <div className="wrapper-top-bg" style={{ backgroundImage: "url(/Homepage-bg-top.png)" }}>
+            <Video />
+            <Banner />
+        </div>
+        <div className="wrapper-top-bg" style={{ backgroundImage: "url(/Homepage-bg-bottom.png)" }}>
+            <About />
+            <RoadMap />
+            <UseOfFounds />
+            <Footer />
+        </div>
     </div>
   );
 };
