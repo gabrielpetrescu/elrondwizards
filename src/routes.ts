@@ -4,6 +4,7 @@ import { dAppName } from "config";
 import withPageTitle from "./components/PageTitle";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
+import OurStory from "./pages/OurStory";
 import Transaction from "./pages/Transaction";
 
 type RouteType = Dapp.RouteType & { title: string };
@@ -33,6 +34,11 @@ const routes: RouteType[] = [
     path: "/transaction",
     title: "Transaction",
     component: Transaction,
+  },
+  {
+    path: "/our-story",
+    title: "Our Story",
+    component: OurStory,
   },
 ];
 

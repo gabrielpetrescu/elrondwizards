@@ -8,6 +8,7 @@ import About from "components/About";
 import RoadMap from "components/RoadMap";
 import UseOfFounds from "components/UseOfFounds";
 import Footer from "components/Footer";
+import OurCollection from "components/OurCollection";
 // prettier-ignore
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Banner />
         </div>
         <div className="wrapper-top-bg" style={{ backgroundImage: "url(/Homepage-bg-bottom.png)" }}>
+            <OurCollection />
             <About />
             <RoadMap />
             <UseOfFounds />

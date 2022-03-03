@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="menu-bg" style={{ backgroundImage: "url(/menu-bg.png)" }}>
           <div className="container menu-container">
             <nav className="navbar navbar-expand-sm p-0">
-              <Link className="navbar-brand p-0 m-0" to="#">
+              <Link className="navbar-brand p-0 m-0" to="/">
                 <img className="img-fluid" src="/rectangle-logo.png" />
               </Link>
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
