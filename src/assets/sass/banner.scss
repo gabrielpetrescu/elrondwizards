@@ -3,14 +3,11 @@
   margin-top: 50px;
 }
 #tsum-tabs section {
-  display: none;
   padding-top: 42px;
 }
-#tsum-tabs input {
-  display: none;
-}
 
-#tsum-tabs label {
+
+#tsum-tabs div {
   display: inline-block;
   color: #fff;
   font-size: 24px;
@@ -22,16 +19,10 @@
   cursor: pointer;
   text-align: center;
 }
-#tsum-tabs label:hover {
+#tsum-tabs div:hover {
   background: linear-gradient(135deg, #973DDD 0%, #CA3ADA 100%);
 }
-#tsum-tabs input:checked + label {
-  background: linear-gradient(135deg, #973DDD 0%, #CA3ADA 100%);
-}
-#tsum-tabs #tab1:checked ~ #content1,
-#tsum-tabs #tab2:checked ~ #content2 {
-  display: block;
-}
+
 
 .wrapper-tabs{
   background-color: #031A27;
