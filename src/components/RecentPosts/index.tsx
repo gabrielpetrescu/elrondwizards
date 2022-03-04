@@ -8,8 +8,7 @@ const RecentPosts = () => {
   const [data, setData] = React.useState<any[]>([]);
   const api_endpoint = "https://api.rss2json.com/v1/api.json?rss_url=";
   const url = api_endpoint + encodeURIComponent(medium_url);
-  const jsonData = "";
-  // Function to do an Ajax call
+
   const doAjax = async () => {
     const response = await fetch(url);
     if (response.ok) {
