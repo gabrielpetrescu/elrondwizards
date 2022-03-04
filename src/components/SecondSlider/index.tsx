@@ -7,9 +7,16 @@ import { Controller } from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import * as $ from "jquery";
+// Import Swiper styles
+import "swiper/components/pagination/pagination.min.css";
+
+// import Swiper core and required modules
+import SwiperCore, { Pagination } from "swiper/core";
+
+// install Swiper modules
+SwiperCore.use([Pagination]);
 
 // prettier-ignore
-
 const SecondSlider = () => {
 
   return (
@@ -19,6 +26,7 @@ const SecondSlider = () => {
                 <Swiper
                     spaceBetween={8}
                     slidesPerView={4}
+                    pagination={true}
                     breakpoints={{
                         0: {
                             slidesPerView: 1,
