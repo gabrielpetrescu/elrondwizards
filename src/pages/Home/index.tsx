@@ -14,6 +14,7 @@ import NFT from "../NFT";
 import Explore from "../Explore";
 import FirstSlider from "../../components/FirstSlider";
 import SecondSlider from "../../components/SecondSlider";
+import RecentPosts from "../../components/RecentPosts";
 // prettier-ignore
 const Home = () => {
 
@@ -77,7 +78,7 @@ const Home = () => {
 
             <About />
             <RoadMap />
-            <UseOfFounds />
+            <RecentPosts />
             <Footer />
         </div>
     </div>
