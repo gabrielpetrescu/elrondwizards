@@ -2,7 +2,7 @@
   text-align:center;
   margin-top: 50px;
 }
-#tsum-tabs section {
+.swiper-section section {
   padding-top: 42px;
 }
 
@@ -19,7 +19,8 @@
   cursor: pointer;
   text-align: center;
 }
-#tsum-tabs div:hover {
+#tsum-tabs div:hover,
+#tsum-tabs div.tab-active{
   background: linear-gradient(135deg, #973DDD 0%, #CA3ADA 100%);
 }
 
@@ -161,7 +162,7 @@
 }
 
 @media screen and (max-width: 768px){
-  #tsum-tabs label{
+  #tsum-tabs div{
     font-size: 18px;
     min-width: 250px;
     padding: 18px;
@@ -169,7 +170,7 @@
   #tsum-tabs{
     margin-top: 70px;
   }
-  #tsum-tabs section {
+  .swiper-section section {
     padding-top: 20px;
   }
   .blob{

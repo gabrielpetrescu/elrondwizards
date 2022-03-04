@@ -37,6 +37,10 @@
 .magician-wrapper:hover .play-btn{
   transform: scale(1.1);
 }
+.modal-content{
+  background-color: #031A27;
+  border: 1px solid #6CB0B5;
+}
 
 @media screen and (max-width: 1200px){
   .head h1{

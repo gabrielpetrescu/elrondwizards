@@ -20,11 +20,11 @@
 
 }
 .wrapper-card{
-  padding: 32px;
+  padding: 32px 16px;
   text-align: center;
   background-color: #031A27;
   border: 1px solid #031A27;
-  transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in;
   margin-bottom: 32px;
 }
 .wrapper-card:hover{
@@ -54,3 +54,61 @@
 .social-icons-person{
   padding-top: 24px;
 }
+
+.accordion-button::after{
+  content: none;
+}
+.accordion-item,
+.accordion-button,
+.accordion-button:focus,
+.accordion-button:not(.collapsed){
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  padding:0;
+  position: relative;
+  border: none;
+}
+.accordion-header .arrow-expand{
+  transition: 0.5s all ease-in-out;
+  position: absolute;
+  right: 0;
+  top: -1px;
+  border-radius: 50%;
+}
+.arrow-expand > path{
+  fill: #CA3ADA;
+  transition: 0.3s all ease-in-out;
+}
+.arrow-expand:hover >path{
+  fill: #fff;
+}
+.arrow-expand:hover{
+  background-color: #CA3ADA;
+}
+
+//.accordion-collapse.collapse.show ~ .accordion-header .arrow-expand{
+//  transform: rotate(-90deg);
+//  background-color: #CA3ADA;
+//}
+
+.wrapper-team h2.accordion-header{
+  margin-bottom: 0;
+}
+
+
+.clasa2 {
+  .arrow-expand {
+    transform: rotate(-90deg);
+    background-color: #CA3ADA;
+    > path{
+      fill: #fff;
+    }
+  }
+}
+
+
+
+
+
+

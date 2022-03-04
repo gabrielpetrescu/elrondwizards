@@ -6,7 +6,7 @@ const OurCollection = () => {
   return (
     <div>
 
-        <div className="wrapper-bubbles">
+        <div className="wrapper-bubbles container">
             <div className="row our-collection">
                 <div className="col-lg-6 d-flex align-items-center">
                     <div>

@@ -64,15 +64,17 @@ const Home = () => {
                     </div>
                 </div>
 
-                {(() => {
-                    if (activeTab.tab1) return <FirstSlider />;
-                    if (activeTab.tab2) return <SecondSlider />;
-                })()}
 
+                    {(() => {
+                        if (activeTab.tab1) return <FirstSlider />;
+                        if (activeTab.tab2) return <SecondSlider />;
+                    })()}
             </div>
+            <OurCollection />
+
         </div>
         <div className="wrapper-top-bg" style={{ backgroundImage: "url(/Homepage-bg-bottom.png)" }}>
-            <OurCollection />
+
             <About />
             <RoadMap />
             <UseOfFounds />

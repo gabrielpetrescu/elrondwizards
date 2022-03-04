@@ -93,6 +93,7 @@ body {
   transition: 0.3s all ease-in-out;
   border:1px solid #CA3ADA;
   display: inline-block;
+  text-decoration: none;
 }
 .btn-main:hover,
 .btn.btn-primary:hover,
@@ -105,7 +106,9 @@ body {
 .action-btn button.btn-main{
   margin-top: 8px;
 }
-
+a{
+  text-decoration: none;
+}
 .btn-main-inverted{
   position: relative;
   background: transparent;
@@ -117,6 +120,7 @@ body {
   transition: 0.3s all ease-in-out;
   border:1px solid #CA3ADA;
   display: inline-block;
+  text-decoration: none;
 }
 .btn-main-inverted:hover{
   color:#fff;
