@@ -6,8 +6,6 @@ import { useAccordionButton } from "react-bootstrap/AccordionButton";
 const About = () => {
 
     const [style, setStyle] = useState("clasa1");
-
-
     const changeStyle = () => {
 
         setStyle("clasa2");
@@ -17,7 +15,40 @@ const About = () => {
         }
 
     };
-  
+
+    const [style2, setStyle2] = useState("clasa3");
+    const changeStyle2 = () => {
+
+        setStyle2("clasa4");
+
+        if(style2 == "clasa4"){
+            setStyle2("clasa3");
+        }
+
+    };
+
+    const [style3, setStyle3] = useState("clasa5");
+    const changeStyle3 = () => {
+
+        setStyle3("clasa6");
+
+        if(style3 == "clasa6"){
+            setStyle3("clasa5");
+        }
+
+    };
+
+    const [style4, setStyle4] = useState("clasa7");
+    const changeStyle4 = () => {
+
+        setStyle4("clasa8");
+
+        if(style4 == "clasa8"){
+            setStyle4("clasa7");
+        }
+
+    };
+
     return (
     <div>
       <div className="wrapper-team container">
@@ -81,13 +112,13 @@ const About = () => {
                             <div className="col-12 text-left">
 
                                 <Accordion>
-                                    <Accordion.Item eventKey="1" className={style}>
+                                    <Accordion.Item eventKey="1" className={style2}>
                                         <Accordion.Body>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                                 veniam, quis nostrud exercitation</p>
                                         </Accordion.Body>
-                                        <Accordion.Header  onClick={changeStyle}>
+                                        <Accordion.Header  onClick={changeStyle2}>
                                             <a href="#">
                                                 <img src="/twitter-icon.svg" alt="twitter" className="img-fluid"/>
                                             </a>
@@ -122,13 +153,13 @@ const About = () => {
                             <div className="col-12 text-left">
 
                                 <Accordion>
-                                    <Accordion.Item eventKey="2" className={style}>
+                                    <Accordion.Item eventKey="2" className={style3}>
                                         <Accordion.Body>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                                 veniam, quis nostrud exercitation</p>
                                         </Accordion.Body>
-                                        <Accordion.Header  onClick={changeStyle}>
+                                        <Accordion.Header  onClick={changeStyle3}>
                                             <a href="#">
                                                 <img src="/twitter-icon.svg" alt="twitter" className="img-fluid"/>
                                             </a>
@@ -163,13 +194,13 @@ const About = () => {
                             <div className="col-12 text-left">
 
                                 <Accordion>
-                                    <Accordion.Item eventKey="3" className={style}>
+                                    <Accordion.Item eventKey="3" className={style4}>
                                         <Accordion.Body>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                                 veniam, quis nostrud exercitation</p>
                                         </Accordion.Body>
-                                        <Accordion.Header  onClick={changeStyle}>
+                                        <Accordion.Header  onClick={changeStyle4}>
                                             <a href="#">
                                                 <img src="/twitter-icon.svg" alt="twitter" className="img-fluid"/>
                                             </a>

@@ -51,6 +51,7 @@ const Home = () => {
             <div className="swiper-section container">
                 <div id="tsum-tabs">
 
+
                     <div
                         className={`nav-nft nft-tab ${activeTab.tab1 ? "tab-active" : ""}`}
                         onClick={handleTabSwitch}

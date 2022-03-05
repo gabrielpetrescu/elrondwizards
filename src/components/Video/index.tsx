@@ -31,9 +31,9 @@ function Video(){
                 <Modal show={show} size="lg" onHide={handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
 
                     <Modal.Body>
-                        <div className="embed-responsive embed-responsive-16by9">
-                            <iframe className="embed-responsive-item"
-                                    src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowFullScreen></iframe>
+                        <div className='embed-container'>
+                            <iframe src='https://www.youtube.com/embed/zpOULjyy-n8?rel=0' frameBorder='0'
+                                    allowFullScreen></iframe>
                         </div>
                     </Modal.Body>
                 </Modal>

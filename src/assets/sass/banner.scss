@@ -13,11 +13,12 @@
   font-size: 24px;
   font-weight: 700;
   min-width: 473px;
-  padding:24px;
+  padding:18px 24px;
   border-radius: 100px;
   transition: 0.3s all ease-in-out;
   cursor: pointer;
   text-align: center;
+  margin: 0 10px;
 }
 #tsum-tabs div:hover,
 #tsum-tabs div.tab-active{
@@ -146,6 +147,34 @@
   animation: pulse-black 3s infinite;
   animation-delay: 0.7s;
 }
+.swiper-section .swiper-container{
+  padding-bottom: 55px;
+}
+.swiper-section .swiper-container-horizontal>.swiper-pagination-bullets{
+  bottom: 0 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-section .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border-radius: 50%;
+  background: transparent;
+  opacity: 1;
+  border: 1px solid #973DDD;
+}
+.swiper-section .swiper-pagination-bullet-active{
+  width: 24px;
+  height: 24px;
+}
+.swiper-section .swiper-slide{
+  text-align: center;
+}
+
+
+
 
 @keyframes pulse-black {
   0% {

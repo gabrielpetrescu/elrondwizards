@@ -12,7 +12,10 @@ function RoadMap() {
 
       </div>
 
-        <div className="graph">
+        <div className="graph-mobile d-block d-sm-none">
+            <img className="img-fluid" src="/graph-mobile.svg" alt="Graph"/>
+        </div>
+        <div className="graph d-none d-sm-block">
             <img src="/graph.png" alt="graph" className="img-fluid graph-img"/>
             <img src="/box_blue-1.svg" alt="graph-box" className="img-fluid box-1 box-graph"/>
             <img src="/box_blue-2.svg" alt="graph-box" className="img-fluid box-2 box-graph"/>
