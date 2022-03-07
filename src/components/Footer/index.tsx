@@ -44,7 +44,7 @@ const Footer = () => {
                   <div className="row">
                       <div className="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
                           <a href="#">
-                              <img className="img-fluid" src="/rectangle-logo.png" />
+                              <img className="img-fluid" src="/elrond-wizards-logo.svg" />
                           </a>
                       </div>
                       <div className="col-lg-8  bottom-links">

@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className="container menu-container">
             <nav className="navbar navbar-expand-md p-0">
               <Link className="navbar-brand p-0 m-0" to="/">
-                <img className="img-fluid" src="/rectangle-logo.png" />
+                <img className="img-fluid" src="/elrond-wizards-logo.svg" />
               </Link>
 
               <Menu right>
