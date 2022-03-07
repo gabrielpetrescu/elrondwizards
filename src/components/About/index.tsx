@@ -218,7 +218,7 @@ const About = () => {
         </div>
         <div className="row">
             <div className="col-12 text-center">
-                <a href="#" className="btn-main">
+                <a href="/our-story" className="btn-main">
                     See our story
                     <img className="img-fluid btn-arrow" src="/arrow-right.svg" alt="arrow"/>
                 </a>
