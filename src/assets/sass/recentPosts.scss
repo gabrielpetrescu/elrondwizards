@@ -52,3 +52,13 @@
 .recent-posts-card .legend-comments{
   padding-left: 15px;
 }
+
+
+
+
+@media screen and (max-width: 768px){
+  .recent-posts h2, .recent-posts .h2{
+    font-size: 38px;
+    margin-bottom: 24px;
+  }
+}

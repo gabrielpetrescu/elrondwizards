@@ -82,7 +82,13 @@
   transform: scale(1.1);
 }
 
-
+@media screen and (max-width: 768px){
+  .piechart-wrapper img{
+    transition: 0.3s all ease-in-out;
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+}
 
 
 
