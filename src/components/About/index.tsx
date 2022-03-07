@@ -71,9 +71,7 @@ const About = () => {
                                 <Accordion>
                                     <Accordion.Item eventKey="0" className={style}>
                                         <Accordion.Body>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                veniam, quis nostrud exercitation</p>
+                                            <p>Passionate about everything related to computers, especially programming. Ferm believer that crypto will replace traditional currency in the future. IT Programmer and NFT creator. Today is the day when future starts!</p>
                                         </Accordion.Body>
                                         <Accordion.Header  onClick={changeStyle}>
                                             <a href="#">
@@ -114,9 +112,7 @@ const About = () => {
                                 <Accordion>
                                     <Accordion.Item eventKey="1" className={style2}>
                                         <Accordion.Body>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                veniam, quis nostrud exercitation</p>
+                                            <p>I think that we are in a perfect time frame for humanity, we have technology, we have advanced medical science and soon web 3.0. However at the same time, we are drifting away from our roots, we look less and less outside, we don&apos;t experience nature as we used to.</p>
                                         </Accordion.Body>
                                         <Accordion.Header  onClick={changeStyle2}>
                                             <a href="#">
@@ -155,9 +151,7 @@ const About = () => {
                                 <Accordion>
                                     <Accordion.Item eventKey="2" className={style3}>
                                         <Accordion.Body>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                veniam, quis nostrud exercitation</p>
+                                            <p>Crypto is my hobby, programming is my passion. Perfectionist by nature, I want to perfectly adapt technology to help nature.</p>
                                         </Accordion.Body>
                                         <Accordion.Header  onClick={changeStyle3}>
                                             <a href="#">
@@ -196,9 +190,7 @@ const About = () => {
                                 <Accordion>
                                     <Accordion.Item eventKey="3" className={style4}>
                                         <Accordion.Body>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                veniam, quis nostrud exercitation</p>
+                                            <p>Humans managed to achieve incredible things in the last decade, amazing discoveries, achievements that we only dreamed of and as future unfolds in front of us, let&apos;s aim towards a better future. Passionate about anything tech related, digital drawing and design and aviation which is my full time job.</p>
                                         </Accordion.Body>
                                         <Accordion.Header  onClick={changeStyle4}>
                                             <a href="#">

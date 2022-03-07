@@ -48,7 +48,7 @@ const Home = () => {
             <Video />
 
 
-            <div className="swiper-section container">
+            <div className="swiper-section container text-center">
                 <div id="tsum-tabs">
 
 

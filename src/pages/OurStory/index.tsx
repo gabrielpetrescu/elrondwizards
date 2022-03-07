@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import About from "../../components/About";
 import FirstSlider from "../../components/FirstSlider";
 import SecondSlider from "../../components/SecondSlider";
+import Accordion from "react-bootstrap/Accordion";
 
 // prettier-ignore
 const OurStory = () => {
@@ -29,15 +30,25 @@ const OurStory = () => {
 
             });
     };
-
+    // prettier-ignore
     return (
         <div className="our-story-page">
-            <div className="wrapper-top-bg" style={{ backgroundImage: "url(/Homepage-bg-top.png)" }}>
-                <h1>Our Story</h1>
-                <p>TEXT HERE</p>
-            </div>
-            <div className="wrapper-top-bg" style={{ backgroundImage: "url(/Homepage-bg-top.png)" }}>
-                <div className="swiper-section container">
+            <div className="wrapper-top-bg" style={{ backgroundImage: "url(/lines.png)" }}>
+
+                <div className="wrapper-story container">
+                    <h1>Our Story</h1>
+
+                    <p>Once upon a time in a magical forest, the legend says that in this mystical place 3 High Wizards ruled the land and created 3333 magical keys, keys that have the power to change the future and were hidden away so that only a few chosen souls would be able to get them when the time was right.</p>
+
+                    <p>However, after many moons passed, people slowly became greedy, wanting more for themselves, forgetting about Mother Nature. Villages became Cities; friends became enemies; brothers became strangers. During this decaying process, the marks left on nature seemed permanent, but then a powerful force awakened from its deep sleep; they decided that something needed to be done to save the world and redeem the innocence of human souls. They went out of the forest looking for the special ones, spreading the word around all corners of the world.</p>
+
+                    <p>Wizards opened the magical chest; the keys were set free to find their future holders; once they did, a bridge would be made between the past, present, and future; it was the way...the only way to save humankind. The question that you could hear everybody whispering through the shadows was:  Are you among the chosen ones?</p>
+
+                    <p>...So are you?</p>
+                </div>
+
+
+                <div className="swiper-section container text-center">
                     <div id="tsum-tabs">
 
                         <div
@@ -59,6 +70,21 @@ const OurStory = () => {
                         if (activeTab.tab2) return <SecondSlider />;
                     })()}
 
+                </div>
+
+                <div className="text-center links-story">
+                    <div>
+                        <a href="/dashboard" className="btn-main">
+                            Mint here
+                            <img className="img-fluid btn-arrow" src="/arrow-right.svg" alt="arrow"/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" className="btn-main-inverted">
+                            Mint on Isengard
+                            <img className="img-fluid btn-arrow" src="/arrow-right.svg" alt="arrow"/>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="wrapper-top-bg" style={{ backgroundImage: "url(/Homepage-bg-bottom.png)" }}>

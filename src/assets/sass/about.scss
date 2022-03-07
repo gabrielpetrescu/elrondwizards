@@ -30,8 +30,14 @@
 .wrapper-card:hover{
   border:1px solid  #6CB0B5;
 }
+.wrapper-card:hover .person-avatar{
+  border:1px solid  #6CB0B5;
+}
 .wrapper-card img.person-avatar{
   margin-bottom: 24px;
+  border-radius: 50%;
+  transition: 0.3s all ease-in-out;
+  border: 1px solid transparent;
 }
 .wrapper-card p{
   color: white;

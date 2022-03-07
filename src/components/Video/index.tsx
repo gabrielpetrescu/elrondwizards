@@ -16,7 +16,7 @@ function Video(){
                 <div>
                     <h1>Are you ready for our magic</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique suspendisse et, nisi, sollicitudin dui, elementum amet. Morbi consectetur neque non purus ipsum in aliquam. Massa at sit a massa non facilisi nisi, elementum lobortis. Quam curabitur ipsum bibendum diam pellentesque.</p>
-                    <a href="#" className="btn-main">
+                    <a href="/dashboard" className="btn-main">
                         Mint here
                         <img className="img-fluid btn-arrow" src="/arrow-right.svg" alt="arrow"/>
                     </a>

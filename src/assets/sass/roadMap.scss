@@ -69,6 +69,27 @@
   left: 73%;
   bottom: 7%;
 }
+
+.piechart-wrapper{
+  text-align: center;
+}
+.piechart-wrapper img{
+  transition: 0.3s all ease-in-out;
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+.piechart-wrapper img:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1200px){
   .box-1{
     width: 25%;
@@ -134,3 +155,5 @@
     bottom: 6%;
   }
 }
+
+

@@ -26,9 +26,11 @@ function RoadMap() {
         </div>
 
 
-        <div className="donut-chart text-center">
-            <img src="/donnut_chart.png" alt="donut-chart" className="img-fluid"/>
+        <div className="piechart-wrapper">
+
+            <img className="img-fluid" src="/donnut-chart.svg" alt="Pie chart"/>
         </div>
+
     </>
   );
 }
