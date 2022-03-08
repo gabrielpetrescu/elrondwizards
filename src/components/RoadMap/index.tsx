@@ -25,9 +25,37 @@ function RoadMap() {
         </div>
 
 
-        <div className="piechart-wrapper d-block d-lg-none px-5">
+        <div className="piechart-wrapper d-block d-lg-none pb-5">
 
-            <img className="img-fluid " src="/donnut-chart.svg" alt="Pie chart"/>
+            <img className="img-fluid w-100 " src="/funds-mobile.svg" alt="Pie chart"/>
+
+            <div className="wrapper-pie-funds">
+                <div className="wrapper-pie-list">
+                    <p className="pie-percent">30%</p>
+                    <p className="pie-desc">Future projects</p>
+                </div>
+
+                <div className="wrapper-pie-list pie-color-25">
+                    <p className="pie-percent">25%</p>
+                    <p className="pie-desc">Investors and Team</p>
+                </div>
+
+                <div className="wrapper-pie-list pie-color-20">
+                    <p className="pie-percent">20%</p>
+                    <p className="pie-desc">Reforestation</p>
+                </div>
+
+                <div className="wrapper-pie-list pie-color-15">
+                    <p className="pie-percent">15%</p>
+                    <p className="pie-desc">Investigative Journalism</p>
+                </div>
+
+                <div className="wrapper-pie-list pie-color-10">
+                    <p className="pie-percent">10%</p>
+                    <p className="pie-desc">Children Fondation</p>
+                </div>
+
+            </div>
         </div>
 
 

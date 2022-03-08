@@ -75,8 +75,8 @@
 }
 .piechart-wrapper img{
   transition: 0.3s all ease-in-out;
-  margin-top: -100px;
-  margin-bottom: -100px;
+  max-width: 500px;
+
 }
 .piechart-wrapper img:hover{
   transform: scale(1.1);
@@ -165,18 +165,63 @@
   transform: scale(1.10);
 }
 
+.wrapper-pie-funds{
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.wrapper-pie-funds p{
+  text-align: left;
+  margin-bottom: 4px;
+}
+.wrapper-pie-list{
+  position: relative;
+  padding-left:16px;
+  margin-bottom: 28px;
+}
+.wrapper-pie-list:after{
+  content: "";
+  position: absolute;
+  left:0;
+  top:0;
+  width: 4px;
+  height: 100%;
+  background-color: #0E7881;
+}
+.wrapper-pie-list.pie-color-25:after{
+  background-color: #0C4B55;
+}
+.wrapper-pie-list.pie-color-20:after{
+  background-color: #0C333E;
+}
+.wrapper-pie-list.pie-color-15:after{
+  background-color: #0C2730;
+}
+.wrapper-pie-list.pie-color-10:after{
+  background-color: #0E212A;
+}
+.pie-percent{
+  color: #14A5AE;
+  font-size: 28px;
+  font-weight: 700 !important;
+}
+.pie-desc{
+  color: white;
+  font-size: 22px;
+  font-weight: 400 !important;
+}
 
-
-
-
-
-
+@media screen and (min-width: 500px){
+  .wrapper-pie-funds{
+    max-width: 300px;
+  }
+}
 @media screen and (max-width: 768px){
   .piechart-wrapper img{
     transition: 0.3s all ease-in-out;
-    margin-top: -20px;
-    margin-bottom: -20px;
   }
+
 }
 
 @media screen and (max-width: 1200px){
@@ -296,6 +341,9 @@
     width: 25%;
     left: 68%;
     bottom: 6%;
+  }
+  .piechart-wrapper img{
+    margin-top: 50px;
   }
 }
 
