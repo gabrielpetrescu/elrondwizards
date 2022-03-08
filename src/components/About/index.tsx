@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
-import { useAccordionButton } from "react-bootstrap/AccordionButton";
 // prettier-ignore
 
 const About = () => {

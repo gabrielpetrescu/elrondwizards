@@ -82,6 +82,7 @@
     "@svgr/webpack": "^6.2.1",
     "@types/jquery": "^3.5.13",
     "@types/react-burger-menu": "^2.8.3",
+    "@types/react-scroll": "^1.8.3",
     "@types/react-tabs": "^2.3.4",
     "@typescript-eslint/eslint-plugin": "4.22.1",
     "@typescript-eslint/parser": "4.22.1",

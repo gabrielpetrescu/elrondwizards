@@ -408,6 +408,11 @@ a{
   border-radius: 0 88px;
   padding: 8px;
 }
+@media screen and (max-width: 510px){
+  .listing-wrapper img{
+    height: 100%;
+  }
+}
 .wrapper-story{
   padding-top: 55px;
 }
@@ -1228,6 +1233,10 @@ a{
   }
   padding-top: 100px;
 }
-
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: initial;
+  }
+}
 /* Our story page */
 
