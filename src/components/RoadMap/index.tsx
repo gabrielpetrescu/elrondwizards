@@ -6,7 +6,7 @@ function RoadMap() {
 
   return (
     <>
-      <div className="roadmap container">
+      <div className="roadmap container" id="roadmap-link">
         <h2>Roadmap</h2>
         <p>We build our future through the present. &quot;Continuous improvement and innovation&quot; is our motto, stay tuned for more.</p>
 
@@ -26,9 +26,22 @@ function RoadMap() {
         </div>
 
 
-        <div className="piechart-wrapper">
+        <div className="piechart-wrapper d-block d-lg-none px-5">
 
-            <img className="img-fluid" src="/donnut-chart.svg" alt="Pie chart"/>
+            <img className="img-fluid " src="/donnut-chart.svg" alt="Pie chart"/>
+        </div>
+
+
+        <div className="piechart-desktop d-none d-lg-block">
+
+            <img className="img-fluid centering" src="/pie-center.png" alt="Pie chart"/>
+            <img className="img-fluid centering pie-bg" src="/pie-background.png" alt="Pie chart"/>
+
+            <img className="img-fluid pie-10 " src="/10.svg" alt="Pie chart"/>
+            <img className="img-fluid pie-15" src="/15.svg" alt="Pie chart"/>
+            <img className="img-fluid pie-20" src="/20.svg" alt="Pie chart"/>
+            <img className="img-fluid pie-25" src="/25.svg" alt="Pie chart"/>
+            <img className="img-fluid pie-30 " src="/30.svg" alt="Pie chart"/>
         </div>
 
     </>

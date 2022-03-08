@@ -33,7 +33,7 @@ const RecentPosts = () => {
 
   return (
     <div>
-      <div className="recent-posts container">
+      <div className="recent-posts container" id="blog-link">
         <div className="row">
 
           <div className="col-12 text-center">

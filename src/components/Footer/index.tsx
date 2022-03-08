@@ -12,7 +12,7 @@ import {
 const Footer = () => {
   return (
     <div>
-      <div className="footer">
+      <div className="footer" id="contact-link">
           <div className="top-footer">
               <h4>Trusted partners</h4>
               <img src="/partners.svg" alt="partners" className="img-fluid partners-logo"/>

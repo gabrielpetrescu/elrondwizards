@@ -82,12 +82,87 @@
   transform: scale(1.1);
 }
 
-@media screen and (max-width: 768px){
-  .piechart-wrapper img{
-    transition: 0.3s all ease-in-out;
-    margin-top: -20px;
-    margin-bottom: -20px;
-  }
+
+.piechart-desktop{
+  max-width: 1000px;
+  margin:0 auto 100px auto;
+  height: 600px;
+  position: relative;
+  cursor: pointer;
+}
+.piechart-desktop img{
+  position: absolute;
+  transition: 0.2s all ease-in-out;
+}
+
+.centering{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.centering-dot{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff000047;
+}
+.centering.pie-bg{
+  z-index: 0;
+}
+.piechart-desktop img.pie-30{
+  left: 25%;
+  top: 9%;
+}
+.piechart-desktop img.pie-10{
+  left: 21.4%;
+  top: 0%;
+}
+.piechart-desktop img.pie-25{
+  left: 25%;
+  top: 9%;
+}
+.piechart-desktop img.pie-15{
+  left: 0.4%;
+  top: 9%;
+}
+.piechart-desktop img.pie-20{
+  left: 14%;
+  top: 9%;
+}
+
+
+
+.piechart-desktop:hover img.pie-30{
+  left: 27.1%;
+  top: 8.9%;
+  transform: scale(1.3);
+}
+ .piechart-desktop:hover img.pie-25{
+   left: 25.9%;
+   top: 9.9%;
+   transform: scale(1.25);
+}
+.piechart-desktop:hover img.pie-20{
+  left: 12.8%;
+  top: 9%;
+  transform: scale(1.20);
+}
+.piechart-desktop:hover img.pie-15{
+  left: -1.6%;
+  top: 9%;
+  transform: scale(1.15);
+}
+.piechart-desktop:hover img.pie-10{
+  left: 21.3%;
+  top: 0%;
+  transform: scale(1.10);
 }
 
 
@@ -95,6 +170,14 @@
 
 
 
+
+@media screen and (max-width: 768px){
+  .piechart-wrapper img{
+    transition: 0.3s all ease-in-out;
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+}
 
 @media screen and (max-width: 1200px){
   .box-1{
@@ -126,6 +209,60 @@
     width: 25%;
     left: 68%;
     bottom: 6%;
+  }
+  .piechart-desktop{
+    max-width: 700px;
+    transform: scale(0.8);
+  }
+  .piechart-desktop img.pie-30{
+    left: 14.3%;
+    top: 8.5%;
+   }
+  .piechart-desktop img.pie-10{
+    left: 9%;
+    top: 0%;
+    transform: scale(1.01);
+  }
+  .piechart-desktop img.pie-25{
+    left: 14.3%;
+    top: 8.5%;
+  }
+  .piechart-desktop img.pie-15{
+    left: -17.9%;
+    top: 11%;
+    transform: scale(1.05);
+  }
+  .piechart-desktop img.pie-20{
+    left: -1.5%;
+    top: 8.5%;
+  }
+
+
+  //Hover
+  .piechart-desktop:hover img.pie-30{
+    left: 17.1%;
+    top: 8.5%;
+    transform: scale(1.3);
+  }
+  .piechart-desktop:hover img.pie-25{
+    left: 15.6%;
+    top: 9.7%;
+    transform: scale(1.25);
+  }
+  .piechart-desktop:hover img.pie-20{
+    left: -3.2%;
+    top: 9%;
+    transform: scale(1.20);
+  }
+  .piechart-desktop:hover img.pie-15{
+    left: -20.6%;
+    top: 11.5%;
+    transform: scale(1.15);
+  }
+  .piechart-desktop:hover img.pie-10{
+    left: 8.5%;
+    top: 2%;
+    transform: scale(1.1);
   }
 }
 

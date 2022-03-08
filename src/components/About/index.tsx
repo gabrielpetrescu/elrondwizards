@@ -51,7 +51,7 @@ const About = () => {
 
     return (
     <div>
-      <div className="wrapper-team container">
+      <div className="wrapper-team container" id="team-link">
         <h2>Our team</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique suspendisse et, nisi, sollicitudin dui, elementum amet. Morbi consectetur neque non purus ipsum in aliquam. Massa at sit a massa non facilisi nisi, elementum lobortis. Quam curabitur ipsum bibendum diam pellentesque.</p>
         <div className="wrapper-cards-team">

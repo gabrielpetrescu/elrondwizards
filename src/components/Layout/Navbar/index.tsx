@@ -32,33 +32,23 @@ const Navbar = () => {
               </Link>
 
               <Menu right>
-                <a className="menu-item" href="/#">Collections</a>
-                <a className="menu-item" href="/#">About Us</a>
-                <a className="menu-item" href="/#">Roadmap</a>
-                <a className="menu-item" href="/#">Blog</a>
-                <a className="menu-item" href="/#">Contact</a>
+                <a className="menu-item" href="#swiper-collection">Collections</a>
+                <a className="menu-item" href="#team-link">About Us</a>
+                <a className="menu-item" href="#roadmap-link">Roadmap</a>
+                <a className="menu-item" href="#blog-link">Blog</a>
+                <a className="menu-item" href="#contact-link">Contact</a>
                 <a className="menu-item" href="/#">Whitepaper</a>
               </Menu>
 
 
               <div className="collapse navbar-collapse d-none d-md-block" id="navbarSupportedContent">
                 <ul className="navbar-nav ">
-                  <li><Link to="/#" className="nav-link">Collections</Link></li>
-                  <li><Link to="/#" className="nav-link">About Us</Link></li>
-                  <li><Link to="/#" className="nav-link">Roadmap</Link></li>
-                  <li><Link to="/#" className="nav-link">Blog</Link></li>
-                  <li><Link to="/#" className="nav-link">Contact</Link></li>
+                  <li><Link to="#swiper-collection" className="nav-link">Collections</Link></li>
+                  <li><Link to="#team-link" className="nav-link">About Us</Link></li>
+                  <li><Link to="#roadmap-link" className="nav-link">Roadmap</Link></li>
+                  <li><Link to="#blog-link" className="nav-link">Blog</Link></li>
+                  <li><Link to="#contact-link" className="nav-link">Contact</Link></li>
                   <li><Link to="/#" className="nav-link">Whitepaper</Link></li>
-                  {/*<li>{loggedIn ? (*/}
-                  {/*    <Link className="nav-link" to="/" onClick={logOut}>*/}
-                  {/*      Logout*/}
-                  {/*    </Link>*/}
-                  {/*    ) : (*/}
-                  {/*    <Link className="nav-link" to="/dashboard">*/}
-                  {/*      Wallet*/}
-                  {/*    </Link>*/}
-                  {/*    )}*/}
-                  {/*</li>*/}
                 </ul>
               </div>
             </nav>
