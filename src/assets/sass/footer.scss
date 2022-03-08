@@ -9,6 +9,9 @@
   margin-right: 24px;
   transition: 0.3s all ease-in-out;
 }
+.social-links a:last-child{
+  margin-right: 0;
+}
 .social-links a:hover{
   transform:scale(1.1);
 }

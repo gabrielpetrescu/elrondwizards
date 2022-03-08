@@ -6,8 +6,6 @@ const Navbar = () => {
     <>
       {/* prettier-ignore */}
       <div>
-
-
         <div className="menu-bg" style={{ backgroundImage: "url(/menu-bg.png)" }}>
           <div className="container menu-container">
             <nav className="navbar navbar-expand-md p-0">
@@ -18,9 +16,9 @@ const Navbar = () => {
               <Menu right>
                 <a className="menu-item" href="/#swiper-collection">Collections</a>
                 <a className="menu-item" href="/#team-link">About Us</a>
-                <a className="menu-item" href="#roadmap-link">Roadmap</a>
-                <a className="menu-item" href="#blog-link">Blog</a>
-                <a className="menu-item" href="#contact-link">Contact</a>
+                <a className="menu-item" href="/#roadmap-link">Roadmap</a>
+                <a className="menu-item" href="/#blog-link">Blog</a>
+                <a className="menu-item" href="/#contactanchor">Contact</a>
                 <a className="menu-item" href="/#">Whitepaper</a>
               </Menu>
 
@@ -29,9 +27,9 @@ const Navbar = () => {
                 <ul className="navbar-nav ">
                   <li><a href="/#swiper-collection" className="nav-link">Collections</a></li>
                   <li><a href="/#team-link" className="nav-link">About Us</a></li>
-                  <li><a href="#roadmap-link" className="nav-link">Roadmap</a></li>
-                  <li><a href="#blog-link" className="nav-link">Blog</a></li>
-                  <li><a href="#contact-link" className="nav-link">Contact</a></li>
+                  <li><a href="/#roadmap-link" className="nav-link">Roadmap</a></li>
+                  <li><a href="/#blog-link" className="nav-link">Blog</a></li>
+                  <li><a href="/#contactanchor" className="nav-link">Contact</a></li>
                   <li><a href="/#" className="nav-link">Whitepaper</a></li>
                 </ul>
               </div>

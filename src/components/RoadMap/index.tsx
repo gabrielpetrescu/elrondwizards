@@ -1,5 +1,4 @@
 import React from "react";
-import AliceCarousel from "react-alice-carousel";
 // prettier-ignore
 function RoadMap() {
   const handleDragStart = (e: React.MouseEvent) => e.preventDefault();

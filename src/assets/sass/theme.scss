@@ -1228,6 +1228,10 @@ a{
   }
   padding-top: 100px;
 }
-
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: initial;
+  }
+}
 /* Our story page */
 

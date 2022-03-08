@@ -1,7 +1,6 @@
 // prettier-ignore
 import React, {useState} from "react";
 import Modal from "react-bootstrap/Modal";
-import CloseButton from "react-bootstrap/CloseButton";
 // prettier-ignore
 function Video(){
     const [show, setShow] = useState(false);
