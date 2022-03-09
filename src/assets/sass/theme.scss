@@ -429,6 +429,7 @@ a:-webkit-any-link:focus-visible {
   background-clip: padding-box !important;
 }
 
+.bm-item-list a:active { text-decoration: none }
 @mixin tab-focus() {
   // Default
   outline: none !important;
