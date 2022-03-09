@@ -417,12 +417,23 @@ a:visited,
 a:focus-visible{
   outline: none !important;
   box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -webkit-border: none !important;
+  -webkit-outline: none !important;
+  border: none !important;
 }
 a:-webkit-any-link:focus-visible {
   outline-offset: unset !important;
 }
 .bm-item{
   background-clip: padding-box !important;
+}
+
+@mixin tab-focus() {
+  // Default
+  outline: none !important;
+  // WebKit
+  outline-offset: 0 !important;
 }
 @media screen and (max-width: 510px){
   .listing-wrapper img{
