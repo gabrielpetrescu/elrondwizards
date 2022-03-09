@@ -26,7 +26,7 @@ const FirstSlider = () => {
                 <Swiper
                     spaceBetween={8}
                     slidesPerView={4}
-                    pagination={true}
+                    pagination={{ clickable: true }}
                     breakpoints={{
                         0: {
                             slidesPerView: 1,
