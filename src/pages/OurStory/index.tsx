@@ -80,7 +80,7 @@ const OurStory = () => {
                         </a>
                     </div>
                     <div>
-                        <a href="#" className="btn-main-inverted">
+                        <a href="https://isengard.market/collection/EWIZZ-1e8ddb" className="btn-main-inverted">
                             Mint on Isengard
                             <img className="img-fluid btn-arrow" src="/arrow-right.svg" alt="arrow"/>
                         </a>
