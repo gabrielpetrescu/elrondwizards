@@ -41,13 +41,13 @@ const Footer = () => {
                       <div className="col-lg-8  bottom-links">
                           <div className="bottom-bar">
                               <p>© 2022, Elrond Wizards</p>
-                              <a href="#">
+                              <a href="/cookie-policy">
                                   Cookie Policy
                               </a>
-                              <a href="#">
+                              <a href="/terms-and-conditions">
                                   Terms and Conditions
                               </a>
-                              <a href="#">
+                              <a href="/privacy-policy">
                                   Privacy Policy
                               </a>
                           </div>
