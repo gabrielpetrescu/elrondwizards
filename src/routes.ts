@@ -5,6 +5,9 @@ import withPageTitle from "./components/PageTitle";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
 import OurStory from "./pages/OurStory";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import CookiePolicy from "./pages/CookiePolicy";
 import Transaction from "./pages/Transaction";
 
 type RouteType = Dapp.RouteType & { title: string };
@@ -39,6 +42,21 @@ const routes: RouteType[] = [
     path: "/our-story",
     title: "Our Story",
     component: OurStory,
+  },
+  {
+    path: "/terms-and-conditions",
+    title: "Terms and conditions",
+    component: TermsAndConditions,
+  },
+  {
+    path: "/privacy-policy",
+    title: "Privacy Policy",
+    component: PrivacyPolicy,
+  },
+  {
+    path: "/cookie-policy",
+    title: "Cookie policy",
+    component: CookiePolicy,
   },
 ];
 

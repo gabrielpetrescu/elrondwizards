@@ -17,18 +17,18 @@ const OurStory = () => {
     const handleTabSwitch = (e: any) => {
         e.preventDefault();
         const value = e.target.innerHTML;
-        if (value.includes("Collection 1"))
+        if (value.includes("Elrond Wizards"))
             setActiveTab({
                 tab1: true,
                 tab2: false,
 
             });
-        if (value.includes("Collection 2"))
-            setActiveTab({
-                tab1: false,
-                tab2: true,
-
-            });
+        // if (value.includes("Collection 2 - Coming Soon"))
+        //     setActiveTab({
+        //         tab1: false,
+        //         tab2: true,
+        //
+        //     });
     };
     // prettier-ignore
     return (
@@ -55,19 +55,19 @@ const OurStory = () => {
                             className={`nav-nft nft-tab ${activeTab.tab1 ? "tab-active" : ""}`}
                             onClick={handleTabSwitch}
                         >
-                            <span>Collection 1</span>
+                            <span>Elrond Wizards</span>
                         </div>
                         <div
                             className={`nav-explore nft-tab ${activeTab.tab2 ? "tab-active" : ""}`}
                             onClick={handleTabSwitch}
                         >
-                            <span>Collection 2</span>
+                            <span>Collection 2 - Coming Soon</span>
                         </div>
                     </div>
 
                     {(() => {
                         if (activeTab.tab1) return <FirstSlider />;
-                        if (activeTab.tab2) return <SecondSlider />;
+                        // if (activeTab.tab2) return <SecondSlider />;
                     })()}
 
                 </div>
