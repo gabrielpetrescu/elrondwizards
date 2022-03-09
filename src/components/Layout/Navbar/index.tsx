@@ -52,7 +52,7 @@ const Navbar = () => {
                   <li><a href="#" className="nav-link" onClick={ e => scrollToAnchor(e,"roadmap-link") }>Roadmap</a></li>
                   <li><a href="#" className="nav-link" onClick={ e => scrollToAnchor(e,"blog-link") }>Blog</a></li>
                   <li><a href="#" className="nav-link" onClick={ e => scrollToAnchor(e,"contact-link") }>Contact</a></li>
-                  <li><a href="#" className="nav-link">Whitepaper</a></li>
+                  <li><a href="/dashboard" className="nav-link">Wallet</a></li>
                 </ul>
               </div>
             </nav>

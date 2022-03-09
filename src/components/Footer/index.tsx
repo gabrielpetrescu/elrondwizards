@@ -22,7 +22,7 @@ const Footer = () => {
                       <img src="/GitHub.svg" alt="github" className="img-fluid"/>
                   </a>
                   <a href="#">
-                      <img src="/facebook.svg" alt="facebook" className="img-fluid"/>
+                      <img src="/telegram.svg" alt="telegram" className="img-fluid"/>
                   </a>
               </div>
 
