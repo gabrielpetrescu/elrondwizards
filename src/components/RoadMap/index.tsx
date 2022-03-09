@@ -12,22 +12,22 @@ function RoadMap() {
       </div>
 
         <div className="graph-mobile d-block d-md-none text-center">
-            <img className="img-fluid" src="/graph-mobile.svg" alt="Graph"/>
+            <img className="img-fluid" src="/graph-mobile.png" alt="Graph"/>
         </div>
         <div className="graph d-none d-md-block">
             <img src="/graph.png" alt="graph" className="img-fluid graph-img"/>
-            <img src="/box_blue-1.svg" alt="graph-box" className="img-fluid box-1 box-graph"/>
-            <img src="/box_blue-2.svg" alt="graph-box" className="img-fluid box-2 box-graph"/>
-            <img src="/box_purpple-1.svg" alt="graph-box" className="img-fluid box-3 box-graph"/>
-            <img src="/box_green-1.svg" alt="graph-box" className="img-fluid box-4 box-graph"/>
-            <img src="/box_purpple-2.svg" alt="graph-box" className="img-fluid box-5 box-graph"/>
-            <img src="/box_green-2.svg" alt="graph-box" className="img-fluid box-6 box-graph"/>
+            <img src="/box_blue-1.png" alt="graph-box" className="img-fluid box-1 box-graph"/>
+            <img src="/box-blue-2.png" alt="graph-box" className="img-fluid box-2 box-graph"/>
+            <img src="/box_purpple-1.png" alt="graph-box" className="img-fluid box-3 box-graph"/>
+            <img src="/box_green-1.png" alt="graph-box" className="img-fluid box-4 box-graph"/>
+            <img src="/box_purpple-2.png" alt="graph-box" className="img-fluid box-5 box-graph"/>
+            <img src="/box_green-2.png" alt="graph-box" className="img-fluid box-6 box-graph"/>
         </div>
 
 
         <div className="piechart-wrapper d-block d-lg-none pb-5">
 
-            <img className="img-fluid w-100 " src="/funds-mobile.svg" alt="Pie chart"/>
+            <img className="img-fluid w-100 " src="/funds-mobile.png" alt="Pie chart"/>
 
             <div className="wrapper-pie-funds">
                 <div className="wrapper-pie-list">

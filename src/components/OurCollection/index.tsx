@@ -32,7 +32,7 @@ const OurCollection = () => {
 
 
 
-                    <img className="img-fluid d-block d-md-none" src="/balls-grouped.svg" alt="bubbles"/>
+                    <img className="img-fluid d-block d-md-none" src="/balls-grouped.png" alt="bubbles"/>
                 </div>
             </div>
         </div>

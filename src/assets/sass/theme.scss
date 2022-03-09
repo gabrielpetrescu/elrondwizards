@@ -408,6 +408,9 @@ a{
   border-radius: 0 88px;
   padding: 8px;
 }
+a:focus-visible{
+  outline: none;
+}
 @media screen and (max-width: 510px){
   .listing-wrapper img{
     height: 100%;
