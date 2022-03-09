@@ -418,6 +418,9 @@ a:focus-visible{
   outline: none;
   box-shadow: none;
 }
+a:-webkit-any-link:focus-visible {
+  outline-offset: unset;
+}
 @media screen and (max-width: 510px){
   .listing-wrapper img{
     height: 100%;
