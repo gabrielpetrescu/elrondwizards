@@ -12,7 +12,10 @@ function RoadMap() {
       </div>
 
         <div className="graph-mobile d-block d-md-none text-center">
-            <img className="img-fluid" src="/graph-mobile.png" alt="Graph"/>
+
+                <img className="img-fluid" src="/graph-mobile.png" alt="Graph"/>
+
+
         </div>
         <div className="graph d-none d-md-block">
             <img src="/graph.png" alt="graph" className="img-fluid graph-img"/>
@@ -27,8 +30,10 @@ function RoadMap() {
 
         <div className="piechart-wrapper d-block d-lg-none pb-5">
 
-            <img className="img-fluid w-100 " src="/funds-mobile.png" alt="Pie chart"/>
-
+            <div className="wrapper-graph">
+                <img className="img-fluid w-100 " src="/funds-mobile.png" alt="Pie chart"/>
+                <h4>Use of <br/> funds</h4>
+            </div>
             <div className="wrapper-pie-funds">
                 <div className="wrapper-pie-list">
                     <p className="pie-percent">30%</p>

@@ -212,6 +212,22 @@
   font-weight: 400 !important;
 }
 
+
+.wrapper-graph{
+  position: relative;
+  display: inline-block;
+}
+.wrapper-graph h4{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform : translate(-50%, -50%);
+  margin-bottom: 0;
+  font-size: 34px;
+  font-weight: 700 !important;
+  color:#0E4C6C;
+}
+
 @media screen and (min-width: 500px){
   .wrapper-pie-funds{
     max-width: 300px;
@@ -342,7 +358,7 @@
     left: 68%;
     bottom: 6%;
   }
-  .piechart-wrapper img{
+  .wrapper-graph{
     margin-top: 50px;
   }
 }

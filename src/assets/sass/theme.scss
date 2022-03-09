@@ -408,8 +408,15 @@ a{
   border-radius: 0 88px;
   padding: 8px;
 }
+a:active,
+a:focus,
+a:focus-within,
+a:target,
+a:hover,
+a:visited,
 a:focus-visible{
   outline: none;
+  box-shadow: none;
 }
 @media screen and (max-width: 510px){
   .listing-wrapper img{
