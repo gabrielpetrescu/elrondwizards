@@ -14,7 +14,9 @@ function Video(){
             <div className="col-md-7 d-flex align-items-center order-2 order-md-1">
                 <div>
                     <h1>Are you ready for our magic</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique suspendisse et, nisi, sollicitudin dui, elementum amet. Morbi consectetur neque non purus ipsum in aliquam. Massa at sit a massa non facilisi nisi, elementum lobortis. Quam curabitur ipsum bibendum diam pellentesque.</p>
+                    <p>Times are changing, just like all of us. As time passes, we mature, we are getting wiser, and at the same time, we get busier and tend to lose focus on what matters most to us. <br/><br/>
+                        We are here to remind people that Nature is still an essential factor to us all; what we do here is inspired by the cultural factor offered by mother nature through mythology. <br/><br/> Every time we say, &#8220;Let&#39;s spread some magic!&#8220; we develop a new bridge that connects us back with our roots.
+                    </p>
                     <a href="/dashboard" className="btn-main">
                         Mint here
                         <img className="img-fluid btn-arrow" src="/arrow-right.svg" alt="arrow"/>
@@ -31,7 +33,7 @@ function Video(){
 
                     <Modal.Body>
                         <div className='embed-container'>
-                            <iframe src='https://www.youtube.com/embed/zpOULjyy-n8?rel=0' frameBorder='0'
+                            <iframe src='https://www.youtube.com/embed/wCh11fjscEk?rel=0' frameBorder='0'
                                     allowFullScreen></iframe>
                         </div>
                     </Modal.Body>

@@ -449,6 +449,24 @@ a:-webkit-any-link:focus-visible {
   font-weight: 700 !important;
   margin-bottom: 32px;
 }
+.wrap-gdpr h2{
+  font-weight: 700 !important;
+  margin-top: 30px;
+}
+@media screen and (max-width: 1200px){
+  .wrapper-story h1{
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 576px){
+  .wrapper-story h1{
+    font-size: 40px;
+  }
+  .wrap-gdpr h2{
+    font-size: 26px;
+  }
+}
+
 .links-story{
   padding: 32px 16px 30px 16px;
 }

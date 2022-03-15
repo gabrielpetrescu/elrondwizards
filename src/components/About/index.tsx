@@ -52,12 +52,12 @@ const About = () => {
     <div>
       <div className="wrapper-team container" id="team-link">
         <h2>Our team</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique suspendisse et, nisi, sollicitudin dui, elementum amet. Morbi consectetur neque non purus ipsum in aliquam. Massa at sit a massa non facilisi nisi, elementum lobortis. Quam curabitur ipsum bibendum diam pellentesque.</p>
+        <p>Young and ambitious team that promises to always deliver, we are here on the long term for our community and our common goals. Let&#39;s spread some magic together!</p>
         <div className="wrapper-cards-team">
             <div className="row">
                 <div className="col-xl-3 col-sm-6">
                     <div className="wrapper-card">
-                        <img className="img-fluid person-avatar" src="/Team_img-1.png" alt="Team Person"/>
+                        <img className="img-fluid person-avatar" src="/Flavius-Eremia.png" alt="Flavius Eremia"/>
                         <p className="name-person">
                             Flavius E.
                         </p>
@@ -73,10 +73,10 @@ const About = () => {
                                             <p>Passionate about everything related to computers, especially programming. Ferm believer that crypto will replace traditional currency in the future. IT Programmer and NFT creator. Today is the day when future starts!</p>
                                         </Accordion.Body>
                                         <Accordion.Header  onClick={changeStyle}>
-                                            <a href="#">
+                                            <a target="_blank" rel="noreferrer" href="https://twitter.com/flavius_eremia">
                                                 <img src="/twitter-icon.svg" alt="twitter" className="img-fluid"/>
                                             </a>
-                                            <a href="#">
+                                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/flavius-eremia-36a9341ab">
                                                 <img src="/linkedin-icon.svg" alt="linkedin" className="img-fluid"/>
                                             </a>
 
@@ -98,12 +98,12 @@ const About = () => {
                 </div>
                 <div className="col-xl-3 col-sm-6">
                     <div className="wrapper-card">
-                        <img className="img-fluid person-avatar" src="/Team_img-2.png" alt="Team Person"/>
+                        <img className="img-fluid person-avatar" src="/Alex-Puscas.png" alt="Alex Puscas"/>
                         <p className="name-person">
-                            Flavius E.
+                            Alex P.
                         </p>
                         <p className="function-person">
-                            Co-Founder, CSO
+                            Co-Founder, CISO
                         </p>
                         <div className="row social-icons-person">
                             <div className="col-12 text-left">
@@ -114,10 +114,10 @@ const About = () => {
                                             <p>I think that we are in a perfect time frame for humanity, we have technology, we have advanced medical science and soon web 3.0. However at the same time, we are drifting away from our roots, we look less and less outside, we don&apos;t experience nature as we used to.</p>
                                         </Accordion.Body>
                                         <Accordion.Header  onClick={changeStyle2}>
-                                            <a href="#">
+                                            <a target="_blank" rel="noreferrer"  href="https://twitter.com/PuscasAlex1">
                                                 <img src="/twitter-icon.svg" alt="twitter" className="img-fluid"/>
                                             </a>
-                                            <a href="#">
+                                            <a target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/alexandru-puscas-930253229">
                                                 <img src="/linkedin-icon.svg" alt="linkedin" className="img-fluid"/>
                                             </a>
 
@@ -137,12 +137,12 @@ const About = () => {
                 </div>
                 <div className="col-xl-3 col-sm-6">
                     <div className="wrapper-card">
-                        <img className="img-fluid person-avatar" src="/Team_img-3.png" alt="Team Person"/>
+                        <img className="img-fluid person-avatar" src="/Razvan-Sadeanu.png" alt="Razvan Sadeanu"/>
                         <p className="name-person">
-                            Flavius E.
+                            Razvan S.
                         </p>
                         <p className="function-person">
-                            Co-Founder, CSO
+                            CWO
                         </p>
                         <div className="row social-icons-person">
                             <div className="col-12 text-left">
@@ -153,10 +153,10 @@ const About = () => {
                                             <p>Crypto is my hobby, programming is my passion. Perfectionist by nature, I want to perfectly adapt technology to help nature.</p>
                                         </Accordion.Body>
                                         <Accordion.Header  onClick={changeStyle3}>
-                                            <a href="#">
+                                            <a target="_blank" rel="noreferrer"  href="https://twitter.com/razvansad?s=11">
                                                 <img src="/twitter-icon.svg" alt="twitter" className="img-fluid"/>
                                             </a>
-                                            <a href="#">
+                                            <a target="_blank" rel="noreferrer"  href="https://ro.linkedin.com/in/razvan-sadeanu-b81208173">
                                                 <img src="/linkedin-icon.svg" alt="linkedin" className="img-fluid"/>
                                             </a>
 
@@ -176,12 +176,12 @@ const About = () => {
                 </div>
                 <div className="col-xl-3 col-sm-6">
                     <div className="wrapper-card">
-                        <img className="img-fluid person-avatar" src="/Team_img-4.png" alt="Team Person"/>
+                        <img className="img-fluid person-avatar" src="/Cosmin-Puscas.png" alt="Cosmin Puscas"/>
                         <p className="name-person">
-                            Flavius E.
+                            Cosmin P.
                         </p>
                         <p className="function-person">
-                            Co-Founder, CSO
+                            Co-Founder, CEO
                         </p>
                         <div className="row social-icons-person">
                             <div className="col-12 text-left">
@@ -192,10 +192,10 @@ const About = () => {
                                             <p>Humans managed to achieve incredible things in the last decade, amazing discoveries, achievements that we only dreamed of and as future unfolds in front of us, let&apos;s aim towards a better future. Passionate about anything tech related, digital drawing and design and aviation which is my full time job.</p>
                                         </Accordion.Body>
                                         <Accordion.Header  onClick={changeStyle4}>
-                                            <a href="#">
+                                            <a target="_blank" rel="noreferrer"  href="https://twitter.com/cosminpuskas">
                                                 <img src="/twitter-icon.svg" alt="twitter" className="img-fluid"/>
                                             </a>
-                                            <a href="#">
+                                            <a target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/cosmin-puscas-00315113b/ ">
                                                 <img src="/linkedin-icon.svg" alt="linkedin" className="img-fluid"/>
                                             </a>
 

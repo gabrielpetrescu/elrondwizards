@@ -9,19 +9,19 @@ const Footer = () => {
               <img src="/partners.svg" alt="partners" className="img-fluid partners-logo"/>
               <h4>Get in touch with us</h4>
               <div className="social-links">
-                  <a href="#">
+                  <a target="_blank" rel="noreferrer"  href="https://twitter.com/ElrondWizards">
                       <img src="/twitter.svg" alt="twitter" className="img-fluid"/>
                   </a>
-                  <a href="#">
+                  <a target="_blank" rel="noreferrer"  href="https://discord.com/invite/bgHuGBvtH6">
                       <img src="/Discord.svg" alt="discord" className="img-fluid"/>
                   </a>
-                  <a href="#">
+                  <a target="_blank" rel="noreferrer"  href="https://www.instagram.com/elrondwizards/">
                       <img src="/Instagram.svg" alt="instagram" className="img-fluid"/>
                   </a>
-                  <a href="#">
+                  <a target="_blank" rel="noreferrer"  href="https://github.com/razvansadeanu/elrondwizards/tree/master">
                       <img src="/GitHub.svg" alt="github" className="img-fluid"/>
                   </a>
-                  <a href="#">
+                  <a target="_blank" rel="noreferrer"  href="https://t.me/ElrondWizards">
                       <img src="/telegram.svg" alt="telegram" className="img-fluid"/>
                   </a>
               </div>
