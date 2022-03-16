@@ -1,17 +1,9 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
-import { dAppName } from "config";
-import { routeNames } from "routes";
-import Banner from "components/Banner";
 import Video from "components/Video";
 import About from "components/About";
 import RoadMap from "components/RoadMap";
-import UseOfFounds from "components/UseOfFounds";
 import Footer from "components/Footer";
 import OurCollection from "components/OurCollection";
-import Buy from "../Dashboard/Buy";
-import NFT from "../NFT";
-import Explore from "../Explore";
 import FirstSlider from "../../components/FirstSlider";
 import SecondSlider from "../../components/SecondSlider";
 import RecentPosts from "../../components/RecentPosts";

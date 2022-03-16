@@ -1,10 +1,8 @@
 import * as React from "react";
-import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
 import About from "../../components/About";
 import FirstSlider from "../../components/FirstSlider";
 import SecondSlider from "../../components/SecondSlider";
-import Accordion from "react-bootstrap/Accordion";
 
 // prettier-ignore
 const OurStory = () => {
