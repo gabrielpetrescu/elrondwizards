@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 // prettier-ignore
 const RecentPosts = () => {
 
-  const medium_url = "https://medium.com/feed/@lucianmincu";
+  const medium_url = "https://medium.com/feed/@ElrondWizards";
 
   const [data, setData] = React.useState<any[]>([]);
   const api_endpoint = "https://api.rss2json.com/v1/api.json?rss_url=";
