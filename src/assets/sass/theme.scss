@@ -453,9 +453,22 @@ a:-webkit-any-link:focus-visible {
   font-weight: 700 !important;
   margin-top: 30px;
 }
+.margin-l{
+  margin-top: -35px;
+}
+@media screen and (min-width: 992px){
+  .text-lg-left{
+    text-align: left !important;
+  }
+}
 @media screen and (max-width: 1200px){
   .wrapper-story h1{
     font-size: 48px;
+  }
+}
+@media screen and (max-width: 768px){
+  .margin-l{
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 576px){
@@ -466,7 +479,9 @@ a:-webkit-any-link:focus-visible {
     font-size: 26px;
   }
 }
-
+.wrap-gdpr .trusted-footer{
+  display: none;
+}
 .links-story{
   padding: 32px 16px 30px 16px;
 }

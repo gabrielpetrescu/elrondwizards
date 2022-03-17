@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="container menu-container">
             <nav className="navbar navbar-expand-md p-0">
               <a className="navbar-brand p-0 m-0" href="/">
-                <img className="img-fluid" src="/elrond-wizards-logo.svg" />
+                <img width="140" className="img-fluid" src="/elrond-wizards-logo.png" />
               </a>
 
               <Menu right>

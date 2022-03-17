@@ -5,8 +5,15 @@ const Footer = () => {
     <div>
       <div className="footer" id="contact-link">
           <div className="top-footer">
-              <h4>Trusted partners</h4>
-              <img src="/partners.svg" alt="partners" className="img-fluid partners-logo"/>
+              <div className="trusted-footer">
+                  <h4>Trusted partners</h4>
+                  <div className="partners-logo">
+                      <img width="400" src="/helios-logo.svg" alt="partners" className="img-fluid"/>
+                      <img width="400" src="/united-logo.svg" alt="partners" className="img-fluid margin-l"/>
+                  </div>
+
+              </div>
+
               <h4>Get in touch with us</h4>
               <div className="social-links">
                   <a target="_blank" rel="noreferrer"  href="https://twitter.com/ElrondWizards">
@@ -33,9 +40,9 @@ const Footer = () => {
           <div className="bottom-footer" style={{ backgroundImage: "url(/footer-bg.png)" }}>
               <div className="container">
                   <div className="row">
-                      <div className="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+                      <div className="col-lg-4  text-lg-left text-center mb-4 mb-lg-0">
                           <a href="#">
-                              <img className="img-fluid" src="/elrond-wizards-logo.svg" />
+                              <img width="200" className="img-fluid" src="/elrond-wizards-logo.png" />
                           </a>
                       </div>
                       <div className="col-lg-8  bottom-links">

@@ -57,26 +57,26 @@ const About = () => {
             <div className="row">
                 <div className="col-xl-3 col-sm-6">
                     <div className="wrapper-card">
-                        <img className="img-fluid person-avatar" src="/Flavius-Eremia.png" alt="Flavius Eremia"/>
+                        <img className="img-fluid person-avatar" src="/Cosmin-Puscas.png" alt="Cosmin Puscas"/>
                         <p className="name-person">
-                            Flavius E.
+                            Cosmin P.
                         </p>
                         <p className="function-person">
-                            Co-Founder, CSO
+                            Co-Founder, CEO
                         </p>
                         <div className="row social-icons-person">
                             <div className="col-12 text-left">
 
                                 <Accordion>
-                                    <Accordion.Item eventKey="0" className={style}>
+                                    <Accordion.Item eventKey="3" className={style4}>
                                         <Accordion.Body>
-                                            <p>Passionate about everything related to computers, especially programming. Ferm believer that crypto will replace traditional currency in the future. IT Programmer and NFT creator. Today is the day when future starts!</p>
+                                            <p>Humans managed to achieve incredible things in the last decade, amazing discoveries, achievements that we only dreamed of and as future unfolds in front of us, let&apos;s aim towards a better future. Passionate about anything tech related, digital drawing and design and aviation which is my full time job.</p>
                                         </Accordion.Body>
-                                        <Accordion.Header  onClick={changeStyle}>
-                                            <a target="_blank" rel="noreferrer" href="https://twitter.com/flavius_eremia">
+                                        <Accordion.Header  onClick={changeStyle4}>
+                                            <a target="_blank" rel="noreferrer"  href="https://twitter.com/cosminpuskas">
                                                 <img src="/twitter-icon.svg" alt="twitter" className="img-fluid"/>
                                             </a>
-                                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/flavius-eremia-36a9341ab">
+                                            <a target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/cosmin-puscas-00315113b/ ">
                                                 <img src="/linkedin-icon.svg" alt="linkedin" className="img-fluid"/>
                                             </a>
 
@@ -92,8 +92,6 @@ const About = () => {
 
                             </div>
                         </div>
-
-
                     </div>
                 </div>
                 <div className="col-xl-3 col-sm-6">
@@ -176,26 +174,26 @@ const About = () => {
                 </div>
                 <div className="col-xl-3 col-sm-6">
                     <div className="wrapper-card">
-                        <img className="img-fluid person-avatar" src="/Cosmin-Puscas.png" alt="Cosmin Puscas"/>
+                        <img className="img-fluid person-avatar" src="/Flavius-Eremia.png" alt="Flavius Eremia"/>
                         <p className="name-person">
-                            Cosmin P.
+                            Flavius E.
                         </p>
                         <p className="function-person">
-                            Co-Founder, CEO
+                            Co-Founder, CSO
                         </p>
                         <div className="row social-icons-person">
                             <div className="col-12 text-left">
 
                                 <Accordion>
-                                    <Accordion.Item eventKey="3" className={style4}>
+                                    <Accordion.Item eventKey="0" className={style}>
                                         <Accordion.Body>
-                                            <p>Humans managed to achieve incredible things in the last decade, amazing discoveries, achievements that we only dreamed of and as future unfolds in front of us, let&apos;s aim towards a better future. Passionate about anything tech related, digital drawing and design and aviation which is my full time job.</p>
+                                            <p>Passionate about everything related to computers, especially programming. Ferm believer that crypto will replace traditional currency in the future. IT Programmer and NFT creator. Today is the day when future starts!</p>
                                         </Accordion.Body>
-                                        <Accordion.Header  onClick={changeStyle4}>
-                                            <a target="_blank" rel="noreferrer"  href="https://twitter.com/cosminpuskas">
+                                        <Accordion.Header  onClick={changeStyle}>
+                                            <a target="_blank" rel="noreferrer" href="https://twitter.com/flavius_eremia">
                                                 <img src="/twitter-icon.svg" alt="twitter" className="img-fluid"/>
                                             </a>
-                                            <a target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/cosmin-puscas-00315113b/ ">
+                                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/flavius-eremia-36a9341ab">
                                                 <img src="/linkedin-icon.svg" alt="linkedin" className="img-fluid"/>
                                             </a>
 
@@ -211,8 +209,11 @@ const About = () => {
 
                             </div>
                         </div>
+
+
                     </div>
                 </div>
+
             </div>
         </div>
         <div className="row">

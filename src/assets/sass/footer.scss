@@ -76,6 +76,8 @@
   align-items: center;
   justify-content: flex-end;
 }
+
+
 @media screen and (max-width: 992px){
   .bottom-links{
     display: flex;
@@ -90,6 +92,9 @@
 @media screen and (max-width: 576px){
   .social-links a{
     margin-bottom: 10px;
+  }
+  .partners-logo img{
+    width: 250px !important;
   }
 }
 @media screen and (max-width: 405px){
