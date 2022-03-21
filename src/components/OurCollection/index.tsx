@@ -1,7 +1,25 @@
 import React from "react";
+import axios from "axios";
 
 // prettier-ignore
 const OurCollection = () => {
+
+    const price = 0.75;
+    const total_supply = 3333;
+    const [data, setData] = React.useState();
+    const [leftToMint, setLeftToMint] = React.useState<number>();
+
+    React.useEffect(() => {
+        const fetchData = async () => {
+            const result = await axios(
+                "https://api.elrond.com/nfts/count?collection=EWIZZ-1e8ddb",
+            );
+
+            setData(result.data);
+            setLeftToMint(total_supply - result.data);
+        };
+        fetchData();
+    }, []);
 
   return (
     <div>
@@ -26,14 +44,14 @@ const OurCollection = () => {
 
                     <div className=" blob ball-top">
                         <div className="bubble-text">
-                            <h4>0.75 <span>EGLD</span></h4>
+                            <h4>{price} <span>EGLD</span></h4>
                             <h5>Minting Price</h5>
                         </div>
                         <img className="img-fluid" src="/ball-top.svg" alt="bubbles"/>
                     </div>
                     <div className=" blob ball-bottom">
                         <div className="bubble-text">
-                            <h4>1110</h4>
+                            <h4>{data}</h4>
                             <h5>Items in Collection</h5>
                         </div>
 
@@ -41,14 +59,14 @@ const OurCollection = () => {
                     </div>
                     <div className=" blob ball-left">
                         <div className="bubble-text">
-                            <h4>2223</h4>
+                            <h4>{leftToMint}</h4>
                             <h5>Left to mint</h5>
                         </div>
                         <img className="img-fluid" src="/ball-left.png" alt="bubbles"/>
                     </div>
                     <div className=" blob ball-right">
                         <div className="bubble-text">
-                            <h4>3333</h4>
+                            <h4>{total_supply}</h4>
                             <h5>Total Supply</h5>
                         </div>
 
