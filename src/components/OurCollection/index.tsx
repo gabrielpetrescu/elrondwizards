@@ -79,7 +79,7 @@ const OurCollection = () => {
                             <div className="col-6">
                                 <div className="wrap-ball-mobile ballm-1">
                                     <div className="wrap-text-mobile">
-                                        <h4>0.75 <span>EGLD</span></h4>
+                                        <h4>{price} <span>EGLD</span></h4>
                                         <h5>Minting Price</h5>
                                     </div>
 
@@ -89,7 +89,7 @@ const OurCollection = () => {
                             <div className="col-6">
                                 <div className="wrap-ball-mobile ballm-2">
                                     <div className="wrap-text-mobile">
-                                        <h4>1110</h4>
+                                        <h4>{data}</h4>
                                         <h5>Items in Collection</h5>
                                     </div>
 
@@ -99,7 +99,7 @@ const OurCollection = () => {
                             <div className="col-6">
                                 <div className="wrap-ball-mobile ballm-3">
                                     <div className="wrap-text-mobile">
-                                        <h4>2223</h4>
+                                        <h4>{leftToMint}</h4>
                                         <h5>Left to mint</h5>
                                     </div>
 
@@ -109,7 +109,7 @@ const OurCollection = () => {
                             <div className="col-6">
                                 <div className="wrap-ball-mobile ballm-4">
                                     <div className="wrap-text-mobile">
-                                        <h4>3333</h4>
+                                        <h4>{total_supply}</h4>
                                         <h5>Total Supply</h5>
                                     </div>
 
