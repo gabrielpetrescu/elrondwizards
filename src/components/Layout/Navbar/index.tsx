@@ -57,13 +57,23 @@ const Navbar = () => {
                 {/*<a className="menu-item" href="/dashboard">Wallet</a>*/}
 
                 {loggedIn ? (
-                    <Link className="menu-item" to="/" onClick={logOut}>
-                      Logout
-                    </Link>
+                    <div>
+
+
+                      <Link className="bm-item menu-item" to="/dashboard">
+                        Wallet
+                      </Link> <br/>
+                      <Link className="bm-item menu-item" to="/" onClick={logOut}>
+                        Logout
+                      </Link>
+                    </div>
+
                 ) : (
-                    <Link className="menu-item" to="/dashboard">
-                      Wallet
-                    </Link>
+
+                      <Link className="nav-link" to="/dashboard">
+                        Wallet
+                      </Link>
+
                 )}
               </Menu>
 
@@ -76,16 +86,32 @@ const Navbar = () => {
                   <li><a href="#" className="nav-link" onClick={ e => scrollToAnchor(e,"blog-link") }>Blog</a></li>
                   <li><a href="#" className="nav-link" onClick={ e => scrollToAnchor(e,"contact-link") }>Contact</a></li>
                   {/*<li><a href="/dashboard" className="nav-link">Wallet</a></li>*/}
-                  <li>{loggedIn ? (
-                      <Link className="nav-link" to="/" onClick={logOut}>
-                        Logout
-                      </Link>
+
+                  {loggedIn ? (
+                      <li>
+                        <Link className="nav-link" to="/dashboard">
+                          Wallet
+                        </Link>
+                      </li>
+                  ) : (
+                      <span></span>
+                  )}
+                  
+
+                  {loggedIn ? (
+                      <li>
+                        <Link className="nav-link" to="/" onClick={logOut}>
+                          Logout
+                        </Link>
+                      </li>
                       ) : (
-                      <Link className="nav-link" to="/dashboard">
-                        Wallet
-                      </Link>
+                        <li>
+                          <Link className="nav-link" to="/dashboard">
+                            Wallet
+                          </Link>
+                        </li>
                       )}
-                  </li>
+
                 </ul>
               </div>
             </nav>
