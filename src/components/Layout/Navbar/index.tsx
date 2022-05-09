@@ -15,6 +15,17 @@ const Navbar = () => {
   };
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
+  // prettier-ignore
+  const hideMenu = (
+      e: { preventDefault: () => void },
+      mobile = false,
+  ) => {
+    if (mobile) {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      document.getElementById("react-burger-cross-btn").click();
+    }
+  };
   const scrollToAnchor = (
     e: { preventDefault: () => void },
     id: string,
@@ -60,17 +71,17 @@ const Navbar = () => {
                     <div>
 
 
-                      <Link className="bm-item menu-item" to="/dashboard">
+                      <Link onClick={ e => hideMenu(e, true ) } className="bm-item menu-item" to="/dashboard">
                         Wallet
                       </Link> <br/>
-                      <Link className="bm-item menu-item" to="/" onClick={logOut}>
+                      <Link  className="bm-item menu-item" to="/" onClick={logOut}>
                         Logout
                       </Link>
                     </div>
 
                 ) : (
 
-                      <Link className="nav-link" to="/dashboard">
+                      <Link onClick={ e => hideMenu(e, true ) } className="nav-link" to="/dashboard">
                         Wallet
                       </Link>
 
@@ -96,7 +107,7 @@ const Navbar = () => {
                   ) : (
                       <span></span>
                   )}
-                  
+
 
                   {loggedIn ? (
                       <li>
